@@ -59,7 +59,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.control_privapp_permissions=enforce
 
 PRODUCT_PACKAGES += \
-    messaging
+    messaging \
+    netutils-wrapper-1.0
 
 TARGET_PRODUCT_PROP := $(LOCAL_PATH)/product.prop
 
