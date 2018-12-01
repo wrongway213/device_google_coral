@@ -58,6 +58,12 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.control_privapp_permissions=enforce
 
+# RCS
+PRODUCT_PACKAGES += \
+    com.android.ims.rcsmanager \
+    PresencePolling \
+    RcsService
+
 PRODUCT_PACKAGES += \
     messaging \
     netutils-wrapper-1.0
