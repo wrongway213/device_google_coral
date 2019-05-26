@@ -35,6 +35,9 @@ AB_OTA_PARTITIONS += \
 PRODUCT_COPY_FILES += \
     device/google/coral/permissions/privapp-permissions-aosp-extended.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-aosp-extended.xml
 
+# Properties
+TARGET_VENDOR_PROP := $(LOCAL_PATH)/vendor.prop
+
 # Vendor packages
 PRODUCT_PACKAGES += \
     ese_spi_st \
@@ -43,7 +46,9 @@ PRODUCT_PACKAGES += \
     libcld80211 \
     libcodec2_hidl@1.0.vendor \
     libcodec2_vndk.vendor \
+    libdisplayconfig \
     libdrm.vendor \
+    libjson \
     libmedia_ecoservice.vendor \
     libnetfilter_conntrack \
     libnfnetlink \
@@ -58,6 +63,8 @@ PRODUCT_PACKAGES += \
     libstagefright_bufferpool@2.0.1.vendor \
     libtextclassifier_hash.vendor \
     libtinycompress \
+    libtinyxml \
+    libwifi-hal-qcom \
     nos_app_avb \
     nos_app_keymaster \
     nos_app_weaver \
