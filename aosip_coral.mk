@@ -39,7 +39,7 @@ PRODUCT_MANUFACTURER := Google
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="coral" \
-    TARGET_DEVICE="coral" \
+    PRODUCT_DEVICE="coral" \
     PRIVATE_BUILD_DESC="coral-user 10 QQ2A.200501.001.B2 6352890 release-keys"
 
 BUILD_FINGERPRINT := "google/coral/coral:10/QQ2A.200501.001.B2/6352890:user/release-keys"
