@@ -97,3 +97,7 @@ persist.sys.disable_rescue=true
 persist.bluetooth.bqr.event_mask=14
 # BQR minimum report interval configuration
 persist.bluetooth.bqr.min_interval_ms=500
+
+# Missing props
+ro.opa.eligible_device=true
+ro.gfx.angle.supported=true

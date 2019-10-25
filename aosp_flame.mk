@@ -22,9 +22,9 @@ $(call inherit-product, device/google/coral/device-flame.mk)
 $(call inherit-product-if-exists, vendor/google_devices/coral/proprietary/device-vendor.mk)
 $(call inherit-product-if-exists, vendor/google_devices/coral/prebuilts/device-vendor-flame.mk)
 
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.config.ringtone=Ring_Synth_04.ogg \
-    ro.com.android.dataroaming=true \
+#PRODUCT_PROPERTY_OVERRIDES += \
+#    ro.config.ringtone=Ring_Synth_04.ogg \
+#    ro.com.android.dataroaming=true \
 
 PRODUCT_PACKAGES += \
     PhotoTable \
@@ -42,6 +42,3 @@ PRODUCT_BRAND := Android
 PRODUCT_NAME := aosp_flame
 PRODUCT_DEVICE := flame
 PRODUCT_MODEL := AOSP on flame
-
-PRODUCT_COPY_FILES += \
-    device/sample/etc/apns-full-conf.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/apns-conf.xml \
