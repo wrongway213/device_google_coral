@@ -46,3 +46,4 @@ PRODUCT_PROPERTY_OVERRIDES += \
 BOARD_PREBUILT_VENDORIMAGE := vendor/images/coral/vendor.img
 
 $(call inherit-product-if-exists, vendor/google/coral/coral-vendor.mk)
+$(call inherit-product-if-exists, vendor/google/psu/google-psu.mk)
