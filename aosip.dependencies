@@ -19,11 +19,5 @@
    "repository":  "DirtyUnicorns/android_vendor_images",
    "target_path": "vendor/images",
    "branch":      "q10x"
- },
- {
-   "remote":      "gitlab",
-   "repository":  "xlxfoxxlx/android_vendor_pixelgapps",
-   "target_path": "vendor/pixelgapps",
-   "branch":      "ten"
  }
 ]
