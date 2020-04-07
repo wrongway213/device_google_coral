@@ -16,8 +16,8 @@
  },
  {
    "remote":      "gitlab",
-   "repository":  "DirtyUnicorns/android_vendor_images",
+   "repository":  "TeamIllusion/platform_vendor_images",
    "target_path": "vendor/images",
-   "branch":      "q10x"
+   "branch":      "ten"
  }
 ]
