@@ -13,11 +13,5 @@
    "repository":  "vendor_google",
    "target_path": "vendor/google",
    "branch":      "ten"
- },
- {
-   "remote":      "gitlab",
-   "repository":  "TeamIllusion/platform_vendor_images",
-   "target_path": "vendor/images",
-   "branch":      "ten"
  }
 ]
