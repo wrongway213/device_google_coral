@@ -41,6 +41,9 @@ setup_vendor "$DEVICE" "$VENDOR" "$AOSIP_ROOT" true
 
 # Copyright headers and guards
 write_headers "coral"
+sed -i 's|vendor/google/|vendor/google/coral|g' $PRODUCTMK
+sed -i 's|device/google//setup-makefiles.sh|device/google/coral/setup-makefiles.sh|g' $ANDROIDBP $ANDROIDMK $BOARDMK $PRODUCTMK
+
 
 write_makefiles "$MY_DIR"/coral-proprietary-files.txt true
 
