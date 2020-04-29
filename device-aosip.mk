@@ -63,7 +63,7 @@ PRODUCT_PACKAGES += \
     libnosprotos:64 \
     libnos:64 \
     libnos_transport:64 \
-    libprotobuf-cpp-full.vendor \
+    libprotobuf-cpp-full-vendorcompat \
     librmnetctl \
     libqti_vndfwk_detect.vendor \
     libsensorndkbridge \
