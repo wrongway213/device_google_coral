@@ -98,9 +98,6 @@ persist.bluetooth.bqr.event_mask=14
 # BQR minimum report interval configuration
 persist.bluetooth.bqr.min_interval_ms=500
 
-# Google Assistant
-ro.opa.eligible_device=true
-
 # props for ims features
 persist.dbg.ims_volte_enable=1
 persist.dbg.volte_avail_ovr=1
