@@ -14,6 +14,15 @@
 # limitations under the License.
 #
 
+# Display
+PRODUCT_PACKAGES += \
+    libdisplayconfig
+
+# DRM
+PRODUCT_PROPERTY_OVERRIDES += \
+    drm.service.enabled=true \
+    media.mediadrmservice.enable=true
+
 # Gesture Nav
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.boot.vendor.overlay.theme=com.android.internal.systemui.navbar.gestural
@@ -27,6 +36,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # WiFi
 PRODUCT_PACKAGES += \
+    libwifi-hal-qcom \
     libwifi-hal-ctrl
 
 # Misc
@@ -38,6 +48,7 @@ PRODUCT_PACKAGES += \
     libcodec2_hidl@1.0.vendor \
     libcodec2_vndk.vendor \
     libdrm.vendor \
+    libjson \
     libmedia_ecoservice.vendor \
     libnetfilter_conntrack \
     libnfnetlink \
