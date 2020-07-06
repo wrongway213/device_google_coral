@@ -40,12 +40,12 @@ PRODUCT_MANUFACTURER := Google
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="coral" \
     PRODUCT_DEVICE="coral" \
-    PRIVATE_BUILD_DESC="coral-user 10 QQ3A.200605.001 6392402 release-keys"
+    PRIVATE_BUILD_DESC="coral-user 10 QQ3A.200705.002 6506677 release-keys"
 
-BUILD_FINGERPRINT := "google/coral/coral:10/QQ3A.200605.001/6392402:user/release-keys"
+BUILD_FINGERPRINT := "google/coral/coral:10/QQ3A.200705.002/6506677:user/release-keys"
 
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.build.fingerprint=google/coral/coral:10/QQ3A.200605.001/6392402:user/release-keys
+    ro.build.fingerprint=google/coral/coral:10/QQ3A.200705.002/6506677:user/release-keys
 
 BOARD_PREBUILT_VENDORIMAGE := vendor/images/coral/vendor.img
 
