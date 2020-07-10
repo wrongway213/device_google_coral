@@ -18,22 +18,6 @@
 PRODUCT_PACKAGES += \
     libdisplayconfig
 
-# DRM
-PRODUCT_PROPERTY_OVERRIDES += \
-    drm.service.enabled=true \
-    media.mediadrmservice.enable=true
-
-# Gesture Nav
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.boot.vendor.overlay.theme=com.android.internal.systemui.navbar.gestural
-
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.hardware.vulkan=adreno \
-    ro.hardware.egl=adreno \
-    ro.zram.mark_idle_delay_mins=60 \
-    ro.zram.first_wb_delay_mins=180 \
-    ro.zram.periodic_wb_delay_hours=24
-
 # WiFi
 PRODUCT_PACKAGES += \
     libwifi-hal-qcom \
