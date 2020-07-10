@@ -59,10 +59,6 @@ vendor/bin/imsdatadaemon
 vendor/bin/imsqmidaemon
 vendor/bin/imsrcsd
 vendor/bin/ims_rtp_daemon
-vendor/bin/init.insmod.sh
-vendor/bin/init.radio.sh
-vendor/bin/init.ramoops.sh
-vendor/bin/init.sensors.sh
 vendor/bin/ipacm
 vendor/bin/irsc_util
 vendor/bin/KmInstallKeybox
@@ -192,22 +188,6 @@ vendor/dsp/sdsp/sleep.napp_header
 vendor/dsp/sdsp/sleep.so
 vendor/dsp/sdsp/smartbatching.napp_header
 vendor/dsp/sdsp/smartbatching.so
-vendor/etc/a2dp_audio_policy_configuration.xml
-vendor/etc/a2dp_in_audio_policy_configuration.xml
-vendor/etc/audio_effects.xml
-vendor/etc/audio_io_policy.conf
-vendor/etc/audio_platform_info_iaxxx_c2proto.xml
-vendor/etc/audio_platform_info_iaxxx_coral.xml
-vendor/etc/audio_platform_info_iaxxx_f2proto.xml
-vendor/etc/audio_platform_info_iaxxx_flame.xml
-vendor/etc/audio_platform_info_iaxxx_jaws.xml
-vendor/etc/audio_policy_configuration_a2dp_offload_disabled.xml
-vendor/etc/audio_policy_configuration_bluetooth_legacy_hal.xml
-vendor/etc/audio_policy_configuration.xml
-vendor/etc/audio_policy_volumes.xml
-vendor/etc/audiozoom.xml
-vendor/etc/bluetooth_audio_policy_configuration.xml
-vendor/etc/bluetooth_hearing_aid_audio_policy_configuration.xml
 vendor/etc/bluetooth_power_limits.csv
 vendor/etc/chre/preloaded_nanoapps.json
 vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml
@@ -244,7 +224,6 @@ vendor/etc/default_coral.mps
 vendor/etc/default_f2proto.mps
 vendor/etc/default_flame.mps
 vendor/etc/FOSSConfig.xml
-vendor/etc/gps.conf
 vendor/etc/init/android.hardware.authsecret@1.0-service.citadel.rc
 vendor/etc/init/android.hardware.biometrics.face@1.0-service.google.rc
 vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc
@@ -285,8 +264,6 @@ vendor/etc/init/vendor.qti.media.c2@1.0-service.rc
 vendor/etc/input_classifier_model.pb
 vendor/etc/IPACM_cfg.xml
 vendor/etc/izat.conf
-vendor/etc/libese-hal-st.conf
-vendor/etc/libnfc-hal-st.conf
 vendor/etc/lowi.conf
 vendor/etc/maxx_conf_c2proto.ini
 vendor/etc/maxx_conf_coral.ini
@@ -463,10 +440,6 @@ vendor/firmware/cppf.b07
 vendor/firmware/cppf.mdt
 vendor/firmware/crbtfw21.tlv
 vendor/firmware/crnv21.bin
-vendor/firmware/crus_sp_config_coral_rx.bin
-vendor/firmware/crus_sp_config_coral_tx.bin
-vendor/firmware/crus_sp_config_flame_rx.bin
-vendor/firmware/crus_sp_config_flame_tx.bin
 vendor/firmware/cs40l20.bin
 vendor/firmware/cs40l25a_cal.bin
 vendor/firmware/cs40l25a_cal.wmfw
@@ -1539,4 +1512,3 @@ vendor/rfs/msm/mpss/readonly/vendor/mbn/mcfg_sw/generic/Pixel/TestSIM/pixel_Test
 vendor/rfs/msm/mpss/readonly/vendor/mbn/mcfg_sw/mbn_sw.dig
 vendor/rfs/msm/mpss/readonly/vendor/mbn/mcfg_sw/mbn_sw.txt
 vendor/rfs/msm/mpss/readonly/vendor/mbn/mcfg.version
-vendor/ueventd.rc
