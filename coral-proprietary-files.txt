@@ -194,7 +194,7 @@ product/priv-app/SCONE/lib/arm64/libborders_scone_leveldb_jni.so
 -product/priv-app/SprintHM/SprintHM.apk;PRESIGNED
 -product/priv-app/TetheringEntitlement/TetheringEntitlement.apk;PRESIGNED
 -product/priv-app/USCCDM/USCCDM.apk
--product/priv-app/WfcActivation/WfcActivation.apk
+-product/priv-app/WfcActivation/WfcActivation.apk;PRESIGNED
 -system_ext/app/atfwd/atfwd.apk
 -system_ext/app/com.qualcomm.qti.services.secureui/com.qualcomm.qti.services.secureui.apk
 -system_ext/app/datastatusnotification/datastatusnotification.apk
