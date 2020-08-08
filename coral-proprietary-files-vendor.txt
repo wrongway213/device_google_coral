@@ -312,6 +312,8 @@ vendor/etc/qdcm_calib_data_nt37280_amoled_5.68_cmd_mode_panel.xml
 vendor/etc/qdcm_calib_data_s6e3hc2_amoled_6.2_cmd_mode_panel.xml
 vendor/etc/sap.conf
 vendor/etc/seccomp_policy/atfwd@2.0.policy
+vendor/etc/seccomp_policy/codec2.vendor.base.policy
+vendor/etc/seccomp_policy/codec2.vendor.ext.policy
 vendor/etc/sensors/config/bmp380.json
 vendor/etc/sensors/config/c2_bmp380.json
 vendor/etc/sensors/config/c2f2u2_touch_gesture.json
