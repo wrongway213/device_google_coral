@@ -1378,7 +1378,6 @@ vendor/lib/rfsa/adsp/libVC1Dec.so
 vendor/lib/rls_aidl_interface-cpp.so
 vendor/lib/sensors.ssc.so
 vendor/lib/soundfx/libasphere.so
-vendor/lib/soundfx/libbundlewrapper.so
 vendor/lib/soundfx/libmalistener.so
 vendor/lib/soundfx/libqcbassboost.so
 vendor/lib/soundfx/libqcompostprocbundle.so
