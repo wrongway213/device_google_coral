@@ -166,7 +166,6 @@ product/lib/vendor.qti.imsrtpservice@3.0.so
 -product/priv-app/CarrierWifi/CarrierWifi.apk;PRESIGNED
 -product/priv-app/ConnMO/ConnMO.apk
 -product/priv-app/DCMO/DCMO.apk
--product/priv-app/DevicePersonalizationPrebuiltPixel4/DevicePersonalizationPrebuiltPixel4.apk;PRESIGNED
 -product/priv-app/DiagMon/DiagMon.apk
 -product/priv-app/DMService/DMService.apk
 -product/priv-app/DreamlinerPrebuilt/DreamlinerPrebuilt.apk;PRESIGNED
@@ -236,7 +235,6 @@ system_ext/etc/permissions/uimremoteserver.xml
 -system_ext/framework/vendor.qti.ims.rcsconfig-V1.0-java.jar
 -system_ext/framework/vendor.qti.latency-V2.0-java.jar
 -system_ext/framework/vendor.qti.voiceprint-V1.0-java.jar
-system_ext/lib64/com.qualcomm.qti.bluetooth_audio@1.0.so
 system_ext/lib64/com.qualcomm.qti.imscmservice@1.0.so
 system_ext/lib64/com.qualcomm.qti.imscmservice@2.0.so
 system_ext/lib64/com.qualcomm.qti.imscmservice@2.1.so
@@ -287,7 +285,6 @@ system_ext/lib64/vendor.qti.data.factory@2.0.so
 system_ext/lib64/vendor.qti.data.factory@2.1.so
 system_ext/lib64/vendor.qti.data.slm@1.0.so
 system_ext/lib64/vendor.qti.hardware.alarm@1.0.so
-system_ext/lib64/vendor.qti.hardware.cryptfshw@1.0.so
 system_ext/lib64/vendor.qti.hardware.data.cne.internal.api@1.0.so
 system_ext/lib64/vendor.qti.hardware.data.cne.internal.constants@1.0.so
 system_ext/lib64/vendor.qti.hardware.data.cne.internal.server@1.0.so
@@ -322,7 +319,6 @@ system_ext/lib64/vendor.qti.ims.rcsconfig@1.0.so
 system_ext/lib64/vendor.qti.ims.rcsconfig@1.1.so
 system_ext/lib64/vendor.qti.imsrtpservice@3.0.so
 system_ext/lib64/vendor.qti.latency@2.0.so
-system_ext/lib/com.qualcomm.qti.bluetooth_audio@1.0.so
 system_ext/lib/com.qualcomm.qti.imscmservice@1.0.so
 system_ext/lib/com.qualcomm.qti.imscmservice@2.0.so
 system_ext/lib/com.qualcomm.qti.imscmservice@2.1.so
@@ -371,7 +367,6 @@ system_ext/lib/vendor.qti.data.factory@2.0.so
 system_ext/lib/vendor.qti.data.factory@2.1.so
 system_ext/lib/vendor.qti.data.slm@1.0.so
 system_ext/lib/vendor.qti.hardware.alarm@1.0.so
-system_ext/lib/vendor.qti.hardware.cryptfshw@1.0.so
 system_ext/lib/vendor.qti.hardware.data.cne.internal.api@1.0.so
 system_ext/lib/vendor.qti.hardware.data.cne.internal.constants@1.0.so
 system_ext/lib/vendor.qti.hardware.data.cne.internal.server@1.0.so

@@ -45,6 +45,7 @@ PRODUCT_PACKAGES += \
     android.hardware.sensors@2.0-ScopedWakelock.vendor \
     audio.primary.msmnile \
     chre \
+    com.qualcomm.qti.bluetooth_audio@1.0 \
     ese_spi_st \
     hardware.google.light@1.0.vendor \
     libavservices_minijail_vendor:32 \
@@ -54,6 +55,8 @@ PRODUCT_PACKAGES += \
     libcodec2_vndk.vendor \
     libcppbor.vendor:64 \
     libdrm.vendor \
+    libgooglecamerahal.vendor:32 \
+    libgooglecamerahalutils.vendor:32 \
     libhidltransport \
     libhidltransport.product:32 \
     libhidltransport.vendor \
@@ -109,6 +112,7 @@ PRODUCT_PACKAGES += \
     vendor.display.config@1.10.vendor \
     vendor.display.config@1.11.vendor \
     vendor.qti.hardware.bluetooth_audio@2.0.vendor \
+    vendor.qti.hardware.cryptfshw@1.0 \
     vendor.qti.hardware.cryptfshw@1.0.vendor \
     vendor.qti.hardware.display.allocator@3.0.vendor:64 \
     vendor.qti.hardware.display.mapper@2.0.vendor \
