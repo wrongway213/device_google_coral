@@ -27,7 +27,7 @@ fi
 . "$HELPER"
 
 # Initialize the helper
-setup_vendor "$DEVICE" "$VENDOR" "$AOSIP_ROOT" true
+setup_vendor "$DEVICE" "$VENDOR" "$ANDROID_ROOT" true
 
 # Warning headers and guards
 write_headers "coral flame"
@@ -43,7 +43,7 @@ write_footers
 
 # Reinitialize the helper
 DEVICE=flame
-setup_vendor "$DEVICE" "$VENDOR" "$AOSIP_ROOT"
+setup_vendor "$DEVICE" "$VENDOR" "$ANDROID_ROOT"
 
 # Copyright headers and guards
 write_headers
