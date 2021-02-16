@@ -31,6 +31,9 @@ TARGET_KERNEL_CONFIG := floral_defconfig
 TARGET_KERNEL_SOURCE := kernel/google/floral
 TARGET_NEEDS_DTBOIMAGE := true
 
+TARGET_KERNEL_ADDITIONAL_FLAGS := \
+    HOSTCFLAGS="-fuse-ld=lld -Wno-unused-command-line-argument"
+
 BUILD_BROKEN_USES_BUILD_COPY_HEADERS := true
 
 # Partitions
